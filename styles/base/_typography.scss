@@ -1,0 +1,15 @@
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: $color-black;
+}
+
+h1 {
+  @include valty;
+  font-size: 4.5rem;
+  font-weight: 300;
+}
+
+p {
+  @include loretta;
+}

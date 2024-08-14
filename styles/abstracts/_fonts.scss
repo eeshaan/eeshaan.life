@@ -1,0 +1,16 @@
+$font-helvetica-now-var: var(--font-helvetica-now-var);
+$font-loretta: var(--font-loretta);
+$font-valty: var(--font-valty);
+
+@mixin helvetica-now-var {
+  font-family: $font-helvetica-now-var, -apple-system, BlinkMacSystemFont,
+    "Helvetica Neue", sans-serif;
+}
+
+@mixin loretta {
+  font-family: $font-loretta, "Publico", serif;
+}
+
+@mixin valty {
+  font-family: $font-valty, $font-loretta, serif;
+}

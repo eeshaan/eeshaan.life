@@ -1,0 +1,41 @@
+{
+  "name": "eeshaan.life",
+  "version": "1.0.0",
+  "description": "my personal website",
+  "main": "pages/_app.js",
+  "scripts": {
+    "download-fonts": "node scripts/download-fonts.js",
+    "build": "npm run download-fonts && next build",
+    "dev": "next dev",
+    "start": "next start",
+    "spotify-generate-auth-url": "node scripts/spotify-generate-auth-url.js",
+    "spotify-get-refresh-token": "node scripts/spotify-callback.js"
+  },
+  "dependencies": {
+    "@lottiefiles/dotlottie-react": "^0.8.7",
+    "@next/bundle-analyzer": "^14.2.5",
+    "@vercel/blob": "^0.23.4",
+    "date-fns": "^3.6.0",
+    "next": "latest",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^5.2.1",
+    "react-obfuscate-email": "^1.1.5",
+    "sass": "^1.77.8",
+    "smartquotes": "^2.3.2",
+    "swr": "^2.2.5"
+  },
+  "devDependencies": {
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Eeshaan Pirani",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eeshaan/eeshaan.life.git"
+  }
+}
